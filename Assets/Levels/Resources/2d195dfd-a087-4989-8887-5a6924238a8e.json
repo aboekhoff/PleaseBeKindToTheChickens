@@ -1,0 +1,501 @@
+{
+"uuid": "2d195dfd-a087-4989-8887-5a6924238a8e",
+"name": "A Simple Task",
+"exit": null,
+"music": null,
+"solvedInEditor": true,
+"tiles": [
+	{
+		"x": 7,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 10,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 11,
+		"type": "goal-chicken",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 11,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 11,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 11,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 11,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 7,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	}
+],
+"actors": [
+	{
+		"x": 12,
+		"y": 7,
+		"type": "chicken"
+	},
+	{
+		"x": 9,
+		"y": 10,
+		"type": "block"
+	},
+	{
+		"x": 11,
+		"y": 7,
+		"type": "block"
+	},
+	{
+		"x": 9,
+		"y": 5,
+		"type": "food"
+	},
+	{
+		"x": 9,
+		"y": 7,
+		"type": "player"
+	},
+	{
+		"x": 8,
+		"y": 11,
+		"type": "food"
+	},
+	{
+		"x": 7,
+		"y": 7,
+		"type": "food"
+	}
+]
+}

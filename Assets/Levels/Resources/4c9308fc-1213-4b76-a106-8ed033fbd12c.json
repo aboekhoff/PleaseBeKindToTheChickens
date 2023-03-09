@@ -1,0 +1,243 @@
+{
+"uuid": "4c9308fc-1213-4b76-a106-8ed033fbd12c",
+"name": "Sokoban 1",
+"exit": null,
+"music": null,
+"solvedInEditor": true,
+"tiles": [
+	{
+		"x": 2,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 4,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 4,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 4,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 6,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 6,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 3,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 3,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 3,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 3,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 3,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	}
+],
+"actors": [
+	{
+		"x": 4,
+		"y": 6,
+		"type": "block"
+	},
+	{
+		"x": 5,
+		"y": 5,
+		"type": "block"
+	},
+	{
+		"x": 4,
+		"y": 4,
+		"type": "player"
+	}
+]
+}

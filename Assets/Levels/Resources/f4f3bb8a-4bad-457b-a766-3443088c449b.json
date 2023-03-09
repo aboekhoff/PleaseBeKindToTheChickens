@@ -1,0 +1,648 @@
+{
+"uuid": "f4f3bb8a-4bad-457b-a766-3443088c449b",
+"name": "Minor Obstacles",
+"exit": null,
+"music": null,
+"solvedInEditor": true,
+"tiles": [
+	{
+		"x": 1,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -1,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -2,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 1,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 1,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 1,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 1,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 1,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 2,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 2,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 2,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 2,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 2,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 2,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 2,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 2,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 2,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 2,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 3,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 3,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 3,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 3,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 3,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 3,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 3,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 3,
+		"type": "goal-chicken",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 3,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 3,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 4,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 4,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 4,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 4,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 5,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 5,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -2,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -1,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -1,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -2,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 7,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -1,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": -2,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	}
+],
+"actors": [
+	{
+		"x": 0,
+		"y": 8,
+		"type": "chicken"
+	},
+	{
+		"x": 1,
+		"y": 7,
+		"type": "block"
+	},
+	{
+		"x": 2,
+		"y": 3,
+		"type": "player"
+	},
+	{
+		"x": 2,
+		"y": 5,
+		"type": "block"
+	},
+	{
+		"x": 8,
+		"y": 3,
+		"type": "food"
+	},
+	{
+		"x": 8,
+		"y": 5,
+		"type": "food"
+	},
+	{
+		"x": 8,
+		"y": 7,
+		"type": "food"
+	}
+]
+}

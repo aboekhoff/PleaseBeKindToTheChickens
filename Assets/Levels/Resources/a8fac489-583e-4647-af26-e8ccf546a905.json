@@ -1,0 +1,570 @@
+{
+"uuid": "a8fac489-583e-4647-af26-e8ccf546a905",
+"name": "Cooperative Mode",
+"exit": null,
+"music": null,
+"solvedInEditor": true,
+"tiles": [
+	{
+		"x": 6,
+		"y": 16,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 16,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 16,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 17,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 17,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 17,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 18,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 18,
+		"type": "switch",
+		"target": [ 7, 15 ],
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 18,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 18,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 18,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 18,
+		"type": "switch",
+		"target": [ 11, 15 ],
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 18,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 18,
+		"type": "switch",
+		"target": [ 9, 15 ],
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 18,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 18,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 18,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 19,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 14,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 14,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 14,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 14,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 14,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 15,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 15,
+		"type": "door",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 15,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 15,
+		"type": "goal-chicken",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 15,
+		"type": "door",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 15,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 15,
+		"type": "door",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 15,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 15,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	}
+],
+"actors": [
+	{
+		"x": 6,
+		"y": 17,
+		"type": "block"
+	},
+	{
+		"x": 5,
+		"y": 18,
+		"type": "player"
+	},
+	{
+		"x": 13,
+		"y": 15,
+		"type": "food"
+	},
+	{
+		"x": 6,
+		"y": 15,
+		"type": "chicken"
+	}
+]
+}

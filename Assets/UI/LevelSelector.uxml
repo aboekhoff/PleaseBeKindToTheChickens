@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="LevelSelector" style="flex-grow: 1; width: 50%; height: 75%; max-width: 50%; max-height: 75%; background-color: rgb(28, 32, 36); border-bottom-color: rgba(64, 74, 82, 255);">
+            <ui:Label text="Select Level" display-tooltip-when-elided="true" name="Header" style="font-size: 24px; color: rgba(255, 197, 0, 255); margin-bottom: 10px; border-bottom-color: rgba(64, 74, 82, 255);" />
+            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; justify-content: center; align-items: center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; border-bottom-color: rgba(0, 0, 0, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,257 @@
+{
+"uuid": "560b5320-86d4-4db2-8e59-cb98d195696c",
+"name": "New Friend",
+"exit": null,
+"music": null,
+"solvedInEditor": false,
+"tiles": [
+	{
+		"x": 7,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 7,
+		"type": "goal-chicken",
+		"target": null,
+		"entrance": null
+	}
+],
+"actors": [
+	{
+		"x": 12,
+		"y": 8,
+		"type": "food"
+	},
+	{
+		"x": 8,
+		"y": 7,
+		"type": "chicken"
+	},
+	{
+		"x": 9,
+		"y": 7,
+		"type": "player"
+	}
+]
+}

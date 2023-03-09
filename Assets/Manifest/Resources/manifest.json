@@ -1,0 +1,206 @@
+{
+"1268dc22-2e6f-456e-987b-10fcae5fd460": {
+	"class": "java.lang.String",
+	"value": "Distraction"
+},
+"ca411db6-33e9-497d-99eb-78ce3ca3c697": {
+	"class": "java.lang.String",
+	"value": "In You Go"
+},
+"2c2f9bb6-0351-4b8c-84f3-34edb7813e40": {
+	"class": "java.lang.String",
+	"value": "A Simple Meal"
+},
+"b7384e30-08b7-4ab0-b3c3-02d22de9079b": {
+	"class": "java.lang.String",
+	"value": "Halfway There"
+},
+"e1d02a52-ed59-41a4-8ccb-1e1c920d3c31": {
+	"class": "java.lang.String",
+	"value": "Map 52"
+},
+"a520ed1f-ee82-4fbe-8414-ce98fae6e67b": {
+	"class": "java.lang.String",
+	"value": "Pavlov's Chicken"
+},
+"f40daac6-b2b0-4cd6-9869-4001663d33b0": {
+	"class": "java.lang.String",
+	"value": "Formations"
+},
+"1e792460-3bcd-482b-a797-580e16955dc9": {
+	"class": "java.lang.String",
+	"value": "Doors"
+},
+"0b5f8982-1d36-4aa1-9e9f-52b85296ed7a": {
+	"class": "java.lang.String",
+	"value": "Temptations"
+},
+"d8b15753-a019-4b32-ba5b-8d7f05b95d98": {
+	"class": "java.lang.String",
+	"value": "Guidance"
+},
+"a8fac489-583e-4647-af26-e8ccf546a905": {
+	"class": "java.lang.String",
+	"value": "Cooperative Mode"
+},
+"5aff5b86-ff14-46e9-853f-2dac8d247f46": {
+	"class": "java.lang.String",
+	"value": "Escort Mission"
+},
+"ccaf4fd4-ad01-48da-889c-92fbb0ebada7": {
+	"class": "java.lang.String",
+	"value": "Level 3: Trial of Combinations"
+},
+"f4f3bb8a-4bad-457b-a766-3443088c449b": {
+	"class": "java.lang.String",
+	"value": "Minor Obstacles"
+},
+"b7f28b09-8617-4d5c-a9f4-6647cdbc9766": {
+	"class": "java.lang.String",
+	"value": "No Sudden Moves"
+},
+"c701cfc1-b6f6-448a-9ab8-9f41dc07e0b0": {
+	"class": "java.lang.String",
+	"value": "A Place For Everything"
+},
+"560b5320-86d4-4db2-8e59-cb98d195696c": {
+	"class": "java.lang.String",
+	"value": "New Friend"
+},
+"d3eb4917-0847-464c-b3b5-3b8b533e84d9": {
+	"class": "java.lang.String",
+	"value": "One True Path"
+},
+"fedf16d2-99f2-4a51-98d8-1993608c13d1": {
+	"class": "java.lang.String",
+	"value": "Level 2: Chamber of Harmony"
+},
+"4437b041-1b3f-4588-81e9-095129ee4740": {
+	"class": "java.lang.String",
+	"value": "A Complex Meal"
+},
+"6a73cd9d-856d-4434-aeac-95874f2cbc7d": {
+	"class": "java.lang.String",
+	"value": "Hungry Friends"
+},
+"eec75224-a003-4a9f-baeb-088c1c7a6807": {
+	"class": "java.lang.String",
+	"value": "Options"
+},
+"a1e446e6-86cd-4808-990a-bcd0cfceaa31": {
+	"class": "java.lang.String",
+	"value": "The Airlock"
+},
+"e5e751bb-f192-45b0-ad9d-a73f3c248455": {
+	"class": "java.lang.String",
+	"value": "The Feast"
+},
+"b3143ba7-d0d2-4d37-abd9-8f0d8cf321ef": {
+	"class": "java.lang.String",
+	"value": "Its a Trap"
+},
+"b43499db-cde9-4bbd-a361-3ffc90baba10": {
+	"class": "java.lang.String",
+	"value": "Freebird"
+},
+"4c9308fc-1213-4b76-a106-8ed033fbd12c": {
+	"class": "java.lang.String",
+	"value": "Sokoban 1"
+},
+"5419eb11-3899-498c-8b69-972bba3811a7": {
+	"class": "java.lang.String",
+	"value": "Map 40"
+},
+"5c17d8b6-528d-44d4-a2c2-367b0c30d936": {
+	"class": "java.lang.String",
+	"value": "Come and Get It"
+},
+"20309579-a5a0-4759-bf06-f3ee32304afa": {
+	"class": "java.lang.String",
+	"value": "Little Helper"
+},
+"e2e4575e-d867-4596-ab9d-5b240ca2c432": {
+	"class": "java.lang.String",
+	"value": "The Ring"
+},
+"0d3919c5-b309-4032-9008-64eae979f04d": {
+	"class": "java.lang.String",
+	"value": "Sokoban 2"
+},
+"15c00a67-8e5f-47b6-9e19-8ec242a61b5c": {
+	"class": "java.lang.String",
+	"value": "Channels"
+},
+"81c678a6-d19f-4cd8-b7ac-f2beea70fc24": {
+	"class": "java.lang.String",
+	"value": "Roads to Rome"
+},
+"ba555531-71a6-46a7-97ef-6890e8fecd34": {
+	"class": "java.lang.String",
+	"value": "A Gentle Nudge"
+},
+"ddfd66df-dce9-4f59-97a2-6b35b4f2eb68": {
+	"class": "java.lang.String",
+	"value": "Secure Room"
+},
+"f03acbb3-ade3-4f93-9703-df36591daef8": {
+	"class": "java.lang.String",
+	"value": "Blinders"
+},
+"a3ea7b47-4d71-47f1-a3b2-49e146751a2c": {
+	"class": "java.lang.String",
+	"value": "Sokoboss"
+},
+"484458a0-1a39-4da1-946a-9182e25adab0": {
+	"class": "java.lang.String",
+	"value": "work for your meal"
+},
+"131594de-b7f0-4802-a732-1801650a95df": {
+	"class": "java.lang.String",
+	"value": "Elaborate Checkmate"
+},
+"008d62fb-b86a-46c8-86e3-df13082790a1": {
+	"class": "java.lang.String",
+	"value": "Ez Checkmate 2"
+},
+"fd9334f5-fbcb-42d9-8f1b-98e99b558831": {
+	"class": "java.lang.String",
+	"value": "Many Options"
+},
+"4e855861-16e3-41d2-8b0d-934d7ad7853f": {
+	"class": "java.lang.String",
+	"value": "Level 1: Hall of Feathers"
+},
+"2d195dfd-a087-4989-8887-5a6924238a8e": {
+	"class": "java.lang.String",
+	"value": "A Simple Task"
+},
+"708cbee2-e32c-4102-be6c-5d2428a40cbe": {
+	"class": "java.lang.String",
+	"value": "Level 1: Enter the Henhouse"
+},
+"4252d8fb-e3c1-48b3-a5d6-4717a99789ae": {
+	"class": "java.lang.String",
+	"value": "Walk This Way"
+},
+"f60d0878-14fe-435a-a696-11a4c45e5df4": {
+	"class": "java.lang.String",
+	"value": "Distractions"
+},
+"6bd879a3-646a-40f4-abf9-60d6b5e49c07": {
+	"class": "java.lang.String",
+	"value": "Predictable"
+},
+"0e7e0b60-34bd-4f39-8ad6-616694290864": {
+	"class": "java.lang.String",
+	"value": "Stay Organized"
+},
+"374cc337-739c-44ec-bf5a-ea31c0fc277f": {
+	"class": "java.lang.String",
+	"value": "Space Hog"
+},
+"917b1288-9b70-409c-9c14-8d68db12e3b4": {
+	"class": "java.lang.String",
+	"value": "Private Storage"
+}
+}

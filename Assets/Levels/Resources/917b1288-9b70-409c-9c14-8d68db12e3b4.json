@@ -1,0 +1,589 @@
+{
+"uuid": "917b1288-9b70-409c-9c14-8d68db12e3b4",
+"name": "Private Storage",
+"exit": null,
+"music": null,
+"solvedInEditor": true,
+"tiles": [
+	{
+		"x": 5,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 15,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 15,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 10,
+		"type": "switch",
+		"target": [ 10, 11 ],
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 15,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 10,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 11,
+		"type": "door",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 15,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 11,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 12,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 12,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 12,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 12,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 12,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 13,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 13,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 13,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 13,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 13,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 14,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 14,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 14,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 14,
+		"type": "goal-block",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 14,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 7,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 8,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 11,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 9,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 10,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 12,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 15,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 13,
+		"y": 15,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 14,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	}
+],
+"actors": [
+	{
+		"x": 9,
+		"y": 9,
+		"type": "block"
+	},
+	{
+		"x": 7,
+		"y": 9,
+		"type": "block"
+	},
+	{
+		"x": 11,
+		"y": 9,
+		"type": "block"
+	},
+	{
+		"x": 12,
+		"y": 10,
+		"type": "player"
+	},
+	{
+		"x": 13,
+		"y": 9,
+		"type": "block"
+	}
+]
+}

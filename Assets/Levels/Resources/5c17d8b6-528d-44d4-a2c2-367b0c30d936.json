@@ -1,0 +1,325 @@
+{
+"uuid": "5c17d8b6-528d-44d4-a2c2-367b0c30d936",
+"name": "Come and Get It",
+"exit": null,
+"music": null,
+"solvedInEditor": true,
+"tiles": [
+	{
+		"x": 1,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 8,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 8,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 9,
+		"type": "goal-chicken",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 9,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 5,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 9,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 6,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 6,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 10,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 1,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 0,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 3,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 2,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 5,
+		"y": 7,
+		"type": "floor",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 4,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	},
+	{
+		"x": 6,
+		"y": 7,
+		"type": "wall",
+		"target": null,
+		"entrance": null
+	}
+],
+"actors": [
+	{
+		"x": 5,
+		"y": 6,
+		"type": "chicken"
+	},
+	{
+		"x": 3,
+		"y": 6,
+		"type": "player"
+	},
+	{
+		"x": 2,
+		"y": 8,
+		"type": "block"
+	},
+	{
+		"x": 3,
+		"y": 8,
+		"type": "food"
+	}
+]
+}
