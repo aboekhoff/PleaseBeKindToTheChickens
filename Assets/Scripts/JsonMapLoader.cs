@@ -27,7 +27,8 @@ public class JsonMapLoader
         typemap.Add("wall", Entity.Type.Wall);
         typemap.Add("goal-block", Entity.Type.Floor);
         typemap.Add("goal-chicken", Entity.Type.Floor);
-        typemap.Add("door", Entity.Type.Door);
+        typemap.Add("door", Entity.Type.MechanicalDoor);
+        typemap.Add("doorway", Entity.Type.LevelEntrance);
         typemap.Add("switch", Entity.Type.Switch);
         typemap.Add("player", Entity.Type.Player);
         typemap.Add("chicken", Entity.Type.Chicken);
@@ -53,6 +54,7 @@ public class JsonMapLoader
 
     public Map LoadMap(string uuid)
     {
+        Debug.Log(uuid);
         TextAsset text = Resources.Load<TextAsset>(uuid);
         JObject js = JObject.Parse(text.ToString());
 
@@ -68,8 +70,8 @@ public class JsonMapLoader
             int x = (int)tile["x"];
             int y = (int)tile["y"];
             string type = (string)tile["type"];
-            string entrance = (string)tile["entrance"];
             Entity.Type goaltype = Entity.Type.None;
+            Entity actualTile;
 
             if (goalmap.ContainsKey(type))
             {
@@ -79,11 +81,17 @@ public class JsonMapLoader
             if (tile["target"].Type != JTokenType.Null)
             {
                 JArray target = (JArray)tile["target"];
-                m.CreateTile(typemap[type], x, y, goaltype, new int[] { (int)target[0], (int)target[1] });
+                actualTile = m.CreateTile(typemap[type], x, y, goaltype, new int[] { (int)target[0], (int)target[1] });
             }
             else
             {
-                m.CreateTile(typemap[type], x, y, goaltype);
+                actualTile = m.CreateTile(typemap[type], x, y, goaltype);
+            }
+
+            if (tile["entrance"].Type != JTokenType.Null)
+            {
+                actualTile.entrance = (string)tile["entrance"];
+                Debug.Log(actualTile.entrance);
             }
         }
 

@@ -35,96 +35,23 @@ public class PuzzleGame : MonoBehaviour
     Material goalChickenMaterial;
 
     [SerializeField]
+    Material levelEntranceMaterial;
+
+    [SerializeField]
     AudioSource audioSource;
+
+    [SerializeField]
+    Vector3 cameraOffset;
 
     Transform player;
 
     List<Transform> actors;
 
-    JsonMapLoader jsonMapLoader;
-
     Map map;
 
-    Dictionary<string, AudioClip> soundEffects;
+    Timeout squawkTimeout = new Timeout(2f);
 
     bool levelComplete = false;
-
-    string testString = @"
-************
-*----------*
-*----*--*--*
-*----*--*--*
-*----*--*--*
-*--B-*--*--*
-*-------*--*
-************".Trim();
-
-    void LoadStringMap()
-    {
-        map = new Map();
-        string[] arr = testString.Split('\n');
-
-        for (int z = 0; z < arr.Length; z++)
-        {
-            string s = arr[z];
-
-            for (int x = 0; x < s.Length; x++)
-            {
-                Entity.Type goal = Entity.Type.None;
-                Entity.Type type;
-                Material mat;
-                float y;
-                char c = s[x];
-                if (c == '*')
-                {
-                    y = 0.5f;
-                    mat = wallMaterial;
-                    type = Entity.Type.Wall;
-                }
-                else if (c == '-')
-                {
-                    y = 0f;
-                    mat = floorMaterial;
-                    type = Entity.Type.Floor;
-                }
-                else if (c == 'B')
-                {
-                    y = 0f;
-                    mat = goalBlockMaterial;
-                    type = Entity.Type.Floor;
-                    goal = Entity.Type.Block;
-                }
-                else
-                {
-                    continue;
-                }
-                Entity e = map.CreateTile(type, x, z, goal);
-                Transform t = Instantiate(entityPrefab);
-                DisplayEntity de = t.GetComponent<DisplayEntity>();
-                de.entityId = e.id;
-                t.localPosition = new Vector3(x, y, z);
-                t.GetComponent<Renderer>().material = mat;
-                t.SetParent(GetComponent<Transform>());
-            }
-        }
-
-        CreatePlayer(4, 4);
-        CreateBlock(3, 3);
-        CreateChicken(2, 2);
-        CreateFood(10, 6);
-    }
-
-    void LoadMapByUUUID(string uuid)
-    {
-        map = jsonMapLoader.LoadMap(uuid);
-        SetupEntities();
-    }
-
-    void LoadMapByName(string name)
-    {
-        map = jsonMapLoader.LoadMapByName(name);
-        SetupEntities();
-    }
 
     void SetupEntities()
     {
@@ -142,6 +69,11 @@ public class PuzzleGame : MonoBehaviour
             if (e.type == Entity.Type.Wall)
             {
                 mat = wallMaterial;
+                y = 0.5f;
+            }
+            else if (e.type == Entity.Type.LevelEntrance)
+            {
+                mat = levelEntranceMaterial;
                 y = 0.5f;
             }
             else
@@ -187,19 +119,19 @@ public class PuzzleGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        jsonMapLoader = new JsonMapLoader();
+        cameraOffset = new Vector3(0, 10, -1);
         audioSource = GetComponent<AudioSource>();
-        InitSoundEffects();
         actors = new List<Transform>();
-
-        LoadMapByName("No Sudden Moves");
-
-        cameraRef.position = new Vector3(
-            player.position.x,
-            player.position.y + 10,
-            player.position.z - 1
-        );
+        map = GameManager.GetCurrentPuzzle();
+        SetupEntities();
+        cameraRef.position = player.localPosition + cameraOffset;
         cameraRef.LookAt(player);
+    }
+
+    void FollowPlayer()
+    {
+        Vector3 target = player.localPosition + cameraOffset;
+        cameraRef.localPosition = Vector3.Lerp(cameraRef.localPosition, target, 0.1f);
     }
 
     void CreatePlayer(int x, int y)
@@ -242,45 +174,47 @@ public class PuzzleGame : MonoBehaviour
         actors.Add(block);
     }
 
-    void InitSoundEffects()
-    {
-        foreach (AudioClip ac in Resources.FindObjectsOfTypeAll(typeof(AudioClip)) as AudioClip[])
-        {
-            Debug.Log(ac);
-        }
-        soundEffects = new Dictionary<string, AudioClip>();
-        string[] names = { 
-            "chicken1",
-            "chicken2",
-            "click1",
-            "click2",
-            "cluck1",
-            "cluck2",
-            "cluck3",
-            "cluck4",
-            "cluck5",
-            "mechanical-door",
-            "slide1",
-            "slide2",
-            "slide3",
-            "slide4",
-            "squawk1",
-            "squawk2",
-            "success"
-        };
-        foreach (string name in names)
-        {
-            AudioClip ac = Resources.Load<AudioClip>(name);
-            Debug.Log(name);
-            Debug.Log(ac);
-            soundEffects[name] = ac;
-        }
-    }
-
     void MovePlayer(int dx, int dy)
     {
         map.MaybeMovePlayer(dx, dy);
         map.MaybeMoveChickens();
+        HandleChanges();
+        
+    }
+
+    void HandleChanges()
+    {
+        AudioManager am = AudioManager.GetInstance();
+        foreach (Entity e in map.GetChanges())
+        {
+            if (e.type == Entity.Type.Chicken)
+            {
+                if (e.pushed)
+                {
+                    if (!squawkTimeout.IsTimedOut())
+                    {
+                        squawkTimeout.Reset();
+                        am.PlayClip(AudioManager.SoundType.Squawk, audioSource);
+                    }
+                } else
+                {
+                    am.PlayClip(AudioManager.SoundType.Cluck, audioSource);
+                }
+            }
+            else if (e.type == Entity.Type.Block)
+            {
+                am.PlayClip(AudioManager.SoundType.Slide, audioSource);
+            }
+            else if (e.type == Entity.Type.Player)
+            {
+                if (e.tile.entrance != null)
+                {
+                    GameManager.PushPuzzle(e.tile.entrance);
+                    map.Undo();
+                }
+            }
+        }
+        map.ClearChanges();
     }
 
     void HandleInput()
@@ -327,13 +261,16 @@ public class PuzzleGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        squawkTimeout.Update(Time.deltaTime);
         HandleInput();
         Animate();
+        FollowPlayer();
         if (!levelComplete && map.IsLevelComplete())
         {
-            Debug.Log("Level Complete!");
             levelComplete = true;
-            audioSource.PlayOneShot(soundEffects["success"]);
+            AudioManager.GetInstance().PlayClip(AudioManager.SoundType.Success, audioSource);
+            // probably want some transition here
+            GameManager.PopPuzzle();
         }
     }
 

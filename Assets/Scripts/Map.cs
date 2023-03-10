@@ -33,10 +33,9 @@ public class Map
     public HashSet<Entity> food;
     public HashSet<Entity> chickens;
     public HashSet<Entity> actors;
+    public HashSet<Entity> changes;
     public Entity player;
     public Stack<List<HistoricalRecord>> history;
-
-
 
     public Map()
     {
@@ -50,6 +49,7 @@ public class Map
         entities = new Dictionary<int, Entity>();
         tiles = new Dictionary<int, Entity>();
         history = new Stack<List<HistoricalRecord>>();
+        changes = new HashSet<Entity>();
     }
 
     public void Init()
@@ -67,6 +67,16 @@ public class Map
         int key = GetKey(x, y);
         if (!tiles.ContainsKey(key)) return null;
         return tiles[GetKey(x, y)];
+    }
+
+    public void ClearChanges()
+    {
+        changes.Clear();
+    }
+
+    public HashSet<Entity> GetChanges()
+    {
+        return changes;
     }
 
     public Entity CreateEntity()
@@ -193,11 +203,14 @@ public class Map
         }
     }
 
-    bool IsPassableForActor(Entity tile)
+    bool IsPassableForActor(Entity actor, Entity tile)
     {
         Entity.Type t = tile.type;
+        Entity.Type t2 = actor.type;
         return t == Entity.Type.Floor ||
-               t == Entity.Type.Door && tile.state == 1;     
+               t == Entity.Type.MechanicalDoor && tile.state == 1 ||
+               t == Entity.Type.CompletedLevelEntrance ||
+               (t2 == Entity.Type.Player && t == Entity.Type.LevelEntrance); 
     }
 
     bool CanMoveActor(Entity actor, int dx, int dy, bool isBeingPushed)
@@ -209,7 +222,7 @@ public class Map
             return false;
         }
         // actor can not enter tile
-        if (!IsPassableForActor(target))
+        if (!IsPassableForActor(actor, target))
         {
             return false;
         }
@@ -227,12 +240,21 @@ public class Map
         return CanMoveActor(target.content, dx, dy, true);
     } 
 
+    public void ClearPushedFlags()
+    {
+        foreach (Entity actor in actors)
+        {
+            actor.pushed = false;
+        }
+    }
+
     public bool MaybeMovePlayer(int dx, int dy)
     {
         if (CanMoveActor(player, dx, dy, false)) 
         {
+            ClearPushedFlags();
             PushHistory();
-            MoveActor(player, dx, dy);
+            MoveActor(player, dx, dy, false);
             return true;
         }
         return false;
@@ -242,20 +264,31 @@ public class Map
     {
         if (CanMoveActor(actor, dx, dy, false))
         {
-            MoveActor(actor, dx, dy);
+            ClearPushedFlags();
+            MoveActor(actor, dx, dy, false);
             UpdateSwitches();
             return true;
         }
         return false;
     }
 
-    void MoveActor(Entity actor, int dx, int dy)
+    void MoveActor(Entity actor, int dx, int dy, bool pushed)
     {
         Entity prev = GetTile(actor.x, actor.y);
         Entity next = GetTile(actor.x + dx, actor.y + dy);
+
+        /* these three entities could change */
+        actor.ResetSnapshot();
+        prev.ResetSnapshot();
+        next.ResetSnapshot();
+        changes.Add(actor);
+        changes.Add(prev);
+        changes.Add(next);
+        actor.pushed = pushed;
+
         if (next.content != null) 
         {
-            MoveActor(next.content, dx, dy);
+            MoveActor(next.content, dx, dy, true);
         }
         actor.x = actor.x + dx;
         actor.y = actor.y + dy;
@@ -330,7 +363,8 @@ public class Map
         }
         return (tile.content == null) &&
                (tile.type == Entity.Type.Floor) ||
-               (tile.type == Entity.Type.Door && tile.state == 1);
+               (tile.type == Entity.Type.MechanicalDoor && tile.state == 1) ||
+               (tile.type == Entity.Type.CompletedLevelEntrance);
     }
 
     void ComputeFoodScore1(Entity f)
@@ -369,6 +403,7 @@ public class Map
     {
         foreach (Entity chicken in chickens)
         {
+            if (chicken.pushed) { continue; }
             UpdateChickenIntention(chicken);
             if (chicken.target != null)
             {
@@ -407,6 +442,8 @@ public class Map
     }
 
     /*
+
+    Will still need A Star for click to move
 
     List<Entity> FindPath(Entity actor, Entity goal)
     {

@@ -179,7 +179,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 2100000, guid: a75aef5a0e5cb6c49b87105ce4252e5f, type: 2}
   goalBlockMaterial: {fileID: 2100000, guid: de5d32e47d974624684f416166d25524, type: 2}
   goalChickenMaterial: {fileID: 2100000, guid: 3e205de5c55cb2043b616ad67b9f75f8, type: 2}
+  levelEntranceMaterial: {fileID: 2100000, guid: 5272c333410068a41bf4476a4590b210,
+    type: 2}
   audioSource: {fileID: 0}
+  cameraOffset: {x: 0, y: 0, z: 0}
 --- !u!82 &274765567
 AudioSource:
   m_ObjectHideFlags: 0
